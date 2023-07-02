@@ -46,7 +46,7 @@ const MobileNav = () => {
 						<BiMusic color="inherit" size={30} />
 
 						<Heading as="h1" fontWeight="semibold" fontSize="2xl">
-							BeatBox
+							MusicBox
 						</Heading>
 					</Flex>
 				</Link>
@@ -70,7 +70,7 @@ const DesktopNav = () => {
 			top={0}
 			left={0}
 			zIndex={30}
-			minW={{ base: "full", md: "12rem", lg: "16rem", "2xl": "25rem" }}
+			minW={{ base: "full", md: "12rem", lg: "16rem", "2xl": "18rem" }}
 			minH={{ base: "5rem", md: "100vh" }}
 			borderRight="1px"
 			borderRightColor="zinc.600"
@@ -79,7 +79,7 @@ const DesktopNav = () => {
 				<Flex color="accent.main" align="center" gap={4}>
 					<BiMusic color="inherit" size={30} />
 					<Heading as="h1" fontWeight="semibold" fontSize="2xl">
-						BeatBox
+						MusicBox
 					</Heading>
 				</Flex>
 				<NavContent />

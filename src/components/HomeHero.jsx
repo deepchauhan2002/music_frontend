@@ -24,7 +24,7 @@ const HomeHero = () => {
 				h="full"
 				p={4}
 				pb={6}
-				bgGradient="linear(to-t, zinc.900, transparent)">
+				bgGradient="linear(to-t, zinc.500, transparent)">
 				<Box w="full">
 					<Heading
 						as="h1"
